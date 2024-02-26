@@ -1,0 +1,96 @@
+    @font-face {
+      font-family: digital;
+      src: url(../font/digital-7.regular.ttf);
+    }
+    body {
+         font-family:Arial, sans-serif;
+         background-color: #000000;
+         margin: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+
+     }
+
+     center {
+        text-align: center;
+     }
+
+     h1 {
+        color: #ffffff;
+     }
+
+     form {
+        margin-top: 2em;
+     }
+
+     table {
+        background-color: #ffffff;
+        border: 4px solid #000000be;
+        border-collapse: collapse;
+        width: 300px;
+        margin: 0 auto;
+     }
+
+     td {
+        padding: 10px;
+        text-align: center;
+     }
+
+     input[type="text"] {
+        width: 100%;
+        height: 50px;
+        padding: 8px;
+        background-color: #c96b00 ;
+        color: #000000;
+        font-family: "digital";
+        font-size: 50px;
+        text-align: ringht;
+        box-sizing:border-box;
+        box-shadow: #ffffff;
+        margin-bottom: 5px;
+        cursor: unset;
+     }
+
+     
+
+     .button1 {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2em;
+        margin: 2px;
+        cursor: pointer;
+        background-color: #0c5070 !important;
+        color: #030207;
+        border: none;
+        border-radius: 5px;
+   }
+
+     .button2 {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2em;
+        margin: 2px;
+        cursor: pointer;
+        background-color: #b60d0d !important;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+   }
+
+   input[type="button"]{
+      width: 50px;
+        height: 50px;
+        font-size: 1.2em;
+        margin: 2px;
+        cursor: pointer;
+        background-color: #c96b00;
+        color: #000000;
+        border: none;
+        border-radius: 20px;
+     }
+
+     input[type="button"]:hover {
+        background-color: #251b12;
+   }
